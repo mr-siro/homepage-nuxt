@@ -66,7 +66,7 @@ export default {
 <style lang="scss">
 @use "static/base";
 .testimonial-wrapper {
-  background-image: url("../../../../assets/images/map2_03.png");
+  background-image: url("~assets/images/map2_03.png");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: initial;

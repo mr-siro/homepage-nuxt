@@ -49,7 +49,7 @@ export default {
 <style lang="scss">
 @use "static/base";
 .footer-wrapper {
-  background-image: url("../../assets/images/footer_03.png");
+  background-image: url("~assets/images/footer_03.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

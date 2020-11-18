@@ -117,7 +117,7 @@ li.nav-item {
 }
 
 .header-wrapper {
-  background-image: url("../../assets/images/header_01.png");
+  background-image: url("~assets/images/header_01.png");
   background-position: center bottom;
   background-repeat: repeat;
   background-size: cover;

@@ -63,7 +63,7 @@ export default {
 @use "static/base";
 
 .ultimate-features-wrapper {
-  background-image: url("../../../../assets/images/background-ulti.png");
+  background-image: url("~assets/images/background-ulti.png");
   background-position: right center;
   background-repeat: no-repeat;
   background-size: initial;

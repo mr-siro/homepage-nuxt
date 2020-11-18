@@ -35,7 +35,7 @@ name: "StartFree",
 <style lang="scss">
 @use "static/base";
 .start-free-wrapper {
-  background-image: url("../../../../assets/images/bg_start_03.png");
+  background-image: url("~assets/images/bg_start_03.png");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: initial;

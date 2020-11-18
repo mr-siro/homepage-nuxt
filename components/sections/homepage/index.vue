@@ -1,16 +1,16 @@
 <template>
-<div>
-  <Trusted/>
-  <Features/>
-  <SmartJackPot/>
-  <Designed/>
-  <WhyShould/>
-  <UltimateFeatures/>
-  <GetAwesome/>
-  <Testimonial/>
-  <Faq/>
-  <StartFree/>
-</div>
+  <div>
+    <Trusted />
+    <Features />
+    <SmartJackPot />
+    <Designed />
+    <WhyShould />
+    <UltimateFeatures />
+    <GetAwesome />
+    <Testimonial />
+    <Faq />
+    <StartFree />
+  </div>
 </template>
 
 <script>
@@ -24,19 +24,21 @@ import GetAwesome from '@/components/sections/homepage/Getawesome/GetAwesome'
 import Testimonial from '@/components/sections/homepage/Testimonial/Testimonial'
 import Faq from '@/components/sections/homepage/FAQ/Faq'
 import StartFree from '@/components/sections/homepage/Startfree/StartFree'
+
 export default {
-components:{
-  Trusted,
-  Features,
-  SmartJackPot,
-  Designed,
-  WhyShould,
-  UltimateFeatures,
-  GetAwesome,
-  Testimonial,
-  Faq,
-  StartFree
-}
+  layout: 'default',
+  components: {
+    Trusted,
+    Features,
+    SmartJackPot,
+    Designed,
+    WhyShould,
+    UltimateFeatures,
+    GetAwesome,
+    Testimonial,
+    Faq,
+    StartFree
+  }
 }
 </script>
 
