@@ -1,0 +1,17 @@
+$primary-color: #242f51;
+$text-primary-color: #616368;
+$text-second-color:#999ca5;
+$btn-primary: #2500f9;
+$base-border: 0.5px solid lightgray;
+@mixin columnLeft {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  display: flex;
+}
+
+@mixin listWrapBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
